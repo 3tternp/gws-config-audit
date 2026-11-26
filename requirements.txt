@@ -1,0 +1,5 @@
+requests>=2.31
+google-auth>=2.29
+google-auth-oauthlib>=1.2
+customtkinter>=5.2
+dnspython>=2.4

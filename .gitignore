@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.venv-build/
+build/
+dist/
+# never commit OAuth client files or tokens
+client_secret*.json
+client_secrets*.json
+credentials*.json
+token*.json
+/gws_audit.html
+/gws_audit.csv
+/gws_audit.json
