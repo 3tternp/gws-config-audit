@@ -17,7 +17,9 @@ No version has been released yet; everything below is in the initial commit and 
 - **Desktop GUI** (CustomTkinter) with dark, light and system themes, summary cards, filters by view, area and status, search, a by-area roll-up, a fix-instruction panel and a log; plus a **CLI** (`gws_audit_cli.py`).
 - **HTML, CSV and JSON reports** (data is HTML-escaped).
 - Offline test suite (canned API data, REST client paging and retry, scope minimisation, read-only client, policy baseline, report escaping, GUI logic) running in CI on Ubuntu and Windows with Python 3.10, 3.12 and 3.13.
-- README with logo, badges, setup steps, permission tables, collapsible check reference, FAQ and roadmap; `SECURITY.md`; MIT license.
+- README with logo, badges, setup steps, permission tables, collapsible check reference, FAQ and roadmap; MIT license.
+- `CONTRIBUTING.md` with development setup, project layout, ground rules (read-only, least privilege, no secrets, honest uncertainty), how to add checks and policy-baseline entries, and a request for sanitised real-Workspace feedback.
+- `SECURITY.md` with a reporting process, scope, protections, an explanation of the broad Google scopes, safe-use advice and incident guidance (rotating an exposed OAuth client, revoking app access).
 
 ### Known limitations
 - Not yet validated against a live Google Workspace; tests use canned data only.
